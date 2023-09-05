@@ -1,0 +1,683 @@
+	<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mine.css">
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- d-md-block start -->
+    <div class="container-fluid d-none d-md-block">
+        <div class="row text-center">
+            <div class="col-md-3 mt-4">
+                <img src="images/bedoctor.svg" class="img-fluid">
+            </div>
+            <div class="col-md-6  mt-3">
+                <nav class="navbar navbar-expand-lg rounded-pill" style="background-color: white;">
+                    <div class="container-fluid ">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon "></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav fs-5" style="color: black;">
+                                <li class="nav-item rounded-pill ms-2" style="background-color: #2B6CF5;">
+                                    <a class="nav-link active px-4" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item rounded-pill ms-3" style="background-color: #2B6CF5;">
+                                    <a class="nav-link px-4" href="srevice.html">Services</a>
+                                </li>
+                                <li class="nav-item rounded-pill ms-3" style="background-color: #2B6CF5;">
+                                    <a class="nav-link px-4" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item rounded-pill ms-3" style="background-color: #2B6CF5;">
+                                    <a class="nav-link px-4" href="packges.html">Pakage</a>
+                                </li>
+                                <li class="nav-item rounded-pill ms-3" style="background-color: #2B6CF5;">
+                                    <a class="nav-link px-4" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-md-3 mt-4">
+                <a class="navbar-brand me-3 fw-bold" style="color: #204289;" href="#">
+                    <img src="images/bedoctor-header-icon1.svg" class="img-fluid pe-3">+61 (0) 3 8376 6284</a>
+                <img src="images/bedoctor-header-icon2.svg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <!-- display end -->
+    <!-- d-sm-block start -->
+    <div class="container-fluid d-sm-block d-md-none">
+        <div class="row text-center">
+            <div class="col-md-3 mt-4">
+                <img src="images/bedoctor.svg" class="img-fluid">
+            </div>
+            <div class="col-md-6  mt-3">
+                <nav class="navbar navbar-expand-lg rounded-pill" style="background-color: white;">
+                    <div class="container-fluid ">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon "></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav fs-5" style="color: black;">
+                                <li class="nav-item rounded-pill mb-2 mt-2" style="background-color: #2B6CF5;">
+                                    <a class="nav-link active px-4" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item rounded-pill mb-2 " style="background-color: #2B6CF5;">
+                                    <a class="nav-link px-4" href="srevice.html">Services</a>
+                                </li>
+                                <li class="nav-item rounded-pill mb-2 " style="background-color: #2B6CF5;">
+                                    <a class="nav-link px-4" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item rounded-pill mb-2 " style="background-color: #2B6CF5;">
+                                    <a class="nav-link px-4" href="packges.html">Pakage</a>
+                                </li>
+                                <li class="nav-item rounded-pill mb-2 " style="background-color: #2B6CF5;">
+                                    <a class="nav-link px-4" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-md-3 mt-4">
+                <a class="navbar-brand me-3 fw-bold" style="color: #204289;" href="#">
+                    <img src="images/bedoctor-header-icon1.svg" class="img-fluid pe-3">+61 (0) 3 8376 6284</a>
+                <img src="images/bedoctor-header-icon2.svg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <!-- display end -->
+    <!-- d-md-block start -->
+    <div class="container-fluid mt-3 ps-5 pe-5 d-none d-md-block">
+        <div class="row rounded-5 overflow-hidden"
+            style="background-image: url(images/bedoctor-section-bg1.webp); background-repeat: no-repeat; background-size: cover; height: 800px;">
+            <div class="col-md-6" id="home-text">
+                <p class="fw-bold pt-5" style="color: #2b6cf5;">BEDOCTOR</p>
+                <h1 class="fw-bold" style="color: #204289;">Hi, I'm<span style="color: #2b6cf5;">Kim Granger</span>
+                    <br>and I'll be your family doctor!
+                </h1>
+                <div class=" mt-5">
+                    <a href="#"><button class="btn btn-outline-danger btn-lg ">Book an appointment</button></a>
+                    <a href="#"><button class="btn btn-outline-danger btn-lg ">My experience</button></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="images/bedoctor-home-pic1.webp" class="img-fluid mt-5">
+            </div>
+        </div>
+    </div>
+    <!-- display end -->
+    <!-- d-sm-block -->
+    <div class="container-fluid mt-3 d-sm-block d-md-none">
+        <div class="row overflow-hidden"
+            style="background-image: url(images/bedoctor-section-bg1.webp); background-repeat: no-repeat; background-size: cover; height: 900px;">
+            <div class="col-md-6 text-center pt-5">
+                <p class="fw-bold pt-5" style="color: #2b6cf5;">BEDOCTOR</p>
+                <h1 class="fw-bold display-4" style="color: #204289;">Hi, I'm<span style="color: #2b6cf5;">Kim Granger</span>
+                    <br>and I'll be your family doctor!
+                </h1>
+                <div class=" mt-4 text-center">
+                    <a href="#"><button class="btn btn-outline-danger btn-sm ">Book an appointment</button></a><br>
+                    <a href="#"><button class="btn btn-outline-danger btn-sm mt-2">My experience</button></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="images/bedoctor-home-pic1.webp" class="img-fluid mt-4">
+            </div>
+        </div>
+    </div>
+    <!-- display end -->
+    <!-- d-md-block start -->
+    <div class="container-fluid ps-5 pe-5 d-none d-md-block" id="home-text2">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="images/bedoctor-home-pic2.webp" class="img-fluid">
+            </div>
+            <div class="col-md-8 ps-5">
+                <img src="images/bedoctor-icon1.svg" class="img-fluid">
+                <h2 class="text-start pt-5 fw-bold" style="color: #204289;">Vulputate fringilla in gravida
+                    hendrerit quis sed ultrices. Risus<br> in vestibulum turpis velit. Varius
+                    id consequat consectetur <br>odio elementum elit enim elit. Eget donec vitae bibendum <br>pulvinar.
+                    Suscipit
+                    massa fermentum.
+                </h2>
+                <p class="fs-5 pt-5" style="color:#204289;">
+                    <span style="color: #2b6cf5;" class="pe-3"> ____________ </span>Kim Granger
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- display end -->
+    <!-- d-sm-block start -->
+    <div class="container-fluid ps-5 pe-5 d-sm-block d-md-none mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="images/bedoctor-home-pic2.webp" class="img-fluid">
+            </div>
+            <div class="col-md-8 text-start">
+                <img src="images/bedoctor-icon1.svg" class="img-fluid mt-5">
+                <h2 class="text-start pt-4 fw-bold fs-5" style="color: #204289;">Vulputate fringilla in gravida
+                    hendrerit quis sed ultrices. Risus in vestibulum turpis velit. Varius
+                    id consequat consectetur odio elementum elit enim elit. Eget donec vitae bibendum pulvinar.
+                    Suscipit
+                    massa fermentum.
+                </h2>
+                <p class="fs-5 pt-4" style="color:#204289;">
+                    <span style="color: #2b6cf5;" class="pe-3"> ____________ </span>Kim Granger
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- display end -->
+    <!-- d-md-block start -->
+    <div class="container-fluid ps-5 pe-5 d-none d-md-block">
+        <div class="row rounded-5 overflow-hidden"
+            style="background-image: url(images/bedoctor-section-bg1.webp); background-repeat: no-repeat; background-size: cover; height: 1450px;">
+            <div class="container pt-5">
+                <p class="text-center fw-bold pt-5" style="color: #2b6cf5;">OUR SERVICES</p>
+                <h2 class="text-center fw-bold display-4 pt-42" style="color: #204289;">Our specializations</h2>
+                <p class="text-center pt-4" style="color: #204289;">Posuere at arcu, felis iaculis tortor mattis id. Eu
+                    at in posuere elit.
+                    <br>Feugiat at faucibus risus
+                    commodo odio.
+                </p>
+                <div class="row mt-5">
+                    <div class="col-md-4 rounded-5 overflow-hidden">
+                        <img src="images/bedoctor-services-pic1.webp" class="img-fluid rounded-top-5">
+                        <h2 class="fw-bold text-center fs-2 pt-4" style="color: #204289;">Dental Department</h2>
+                        <p class="text-center pt-2" style="color: #204289;">Sodales habitasse aliquam solli primis.</p>
+                        <div class=" mt-2 mb-5 text-center">
+                            <a href="#"><button class="btn btn-outline-danger btn-lg ">See more</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 rounded-5 overflow-hidden p-0" style="background-color: white;">
+                        <img src="images/bedoctor-services-pic2.webp" class="img-fluid rounded-top-5">
+                        <h2 class="fw-bold text-center fs-2 pt-4" style="color: #204289;">Cardiology</h2>
+                        <p class="text-center pt-2" style="color: #204289;">Tristique nam porttitor at vivamus.</p>
+                        <div class=" mt-2 mb-5 text-center">
+                            <a href="#"><button class="btn btn-outline-danger btn-lg ">See more</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 rounded-5 overflow-hidden">
+                        <img src="images/bedoctor-services-pic3.webp" class="img-fluid rounded-top-5">
+                        <h2 class="fw-bold text-center fs-2 pt-4" style="color: #204289;">Pediatrics</h2>
+                        <p class="text-center pt-2" style="color: #204289;">Blandit donec convallis feugiat velit.</p>
+                        <div class=" mt-2 mb-5 text-center">
+                            <a href="#"><button class="btn btn-outline-danger btn-lg ">See more</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row p-2 mt-5">
+                    <div class="col-md-4 rounded-5 overflow-hidden p-0" style="background-color: white;">
+                        <img src="images/bedoctor-services-pic4.webp" class="img-fluid rounded-top-5">
+                        <h2 class="fw-bold text-center fs-2 pt-4" style="color: #204289;">X-Ray</h2>
+                        <p class="text-center pt-2" style="color: #204289;">Enim cursus nullam eu dolor.</p>
+                        <div class=" mt-2 mb-5 text-center">
+                            <a href="#"><button class="btn btn-outline-danger btn-lg ">See more</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 rounded-5 overflow-hidden">
+                        <img src="images/bedoctor-services-pic5.webp" class="img-fluid rounded-top-5">
+                        <h2 class="fw-bold text-center fs-2 pt-4" style="color: #204289;">Ear treatment</h2>
+                        <p class="text-center pt-2" style="color: #204289;">Vitae enim aliquam aliquet sit.</p>
+                        <div class=" mt-2 mb-5 text-center">
+                            <a href="#"><button class="btn btn-outline-danger btn-lg ">See more</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 rounded-5 overflow-hidden p-0" style="background-color: white;">
+                        <img src="images/bedoctor-services-pic6.webp" class="img-fluid rounded-top-5">
+                        <h2 class="fw-bold text-center fs-2 pt-4" style="color: #204289;">Pregnancy</h2>
+                        <p class="text-center pt-2" style="color: #204289;">Neque cubilia etiam fringilla integer.</p>
+                        <div class=" mt-2 mb-5 text-center">
+                            <a href="#"><button class="btn btn-outline-danger btn-lg ">See more</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- display end -->
+    <!-- d-sm-block -->
+    <div class="container-fluid ps-5 pe-5 d-sm-block d-md-none">
+        <div class="row rounded-5 overflow-hidden mb-5"
+            style="background-image: url(images/bedoctor-section-bg1.webp); background-repeat: no-repeat; background-size: cover;">
+            <div class="container pt-5">
+                <p class="text-center fw-bold pt-5" style="color: #2b6cf5;">OUR SERVICES</p>
+                <h2 class="text-center fw-bold display-4 pt-42" style="color: #204289;">Our specializations</h2>
+                <p class="text-center pt-4" style="color: #204289;">Posuere at arcu, felis iaculis tortor mattis id. Eu
+                    at in posuere elit.
+                    <br>Feugiat at faucibus risus
+                    commodo odio.
+                </p>
+                <div class="row mt-5 p-2">
+                    <div class="col-md-2 rounded-5 overflow-hidden p-0 mb-4" style="background-color: white;">
+                        <img src="images/bedoctor-services-pic1.webp" class="img-fluid rounded-top-5">
+                        <h2 class="fw-bold text-center fs-2 pt-4" style="color: #204289;">Dental Department</h2>
+                        <p class="text-center pt-2" style="color: #204289;">Sodales habitasse aliquam solli primis.</p>
+                        <div class=" mt-2 mb-5 text-center">
+                            <a href="#"><button class="btn btn-outline-danger btn-sm ">See more</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 rounded-5 overflow-hidden p-0 mb-4" style="background-color: white;">
+                        <img src="images/bedoctor-services-pic2.webp" class="img-fluid rounded-top-5">
+                        <h2 class="fw-bold text-center fs-2 pt-4" style="color: #204289;">Cardiology</h2>
+                        <p class="text-center pt-2" style="color: #204289;">Tristique nam porttitor at vivamus.</p>
+                        <div class=" mt-2 mb-5 text-center">
+                            <a href="#"><button class="btn btn-outline-danger btn-sm ">See more</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 rounded-5 overflow-hidden p-0 mb-4" style="background-color: white;">
+                        <img src="images/bedoctor-services-pic3.webp" class="img-fluid rounded-top-5">
+                        <h2 class="fw-bold text-center fs-2 pt-4" style="color: #204289;">Pediatrics</h2>
+                        <p class="text-center pt-2" style="color: #204289;">Blandit donec convallis feugiat velit.</p>
+                        <div class=" mt-2 mb-5 text-center">
+                            <a href="#"><button class="btn btn-outline-danger btn-sm ">See more</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row p-2 mt-5">
+                    <div class="col-md-2 rounded-5 overflow-hidden p-0 mb-4" style="background-color: white;">
+                        <img src="images/bedoctor-services-pic4.webp" class="img-fluid rounded-top-5">
+                        <h2 class="fw-bold text-center fs-2 pt-4" style="color: #204289;">X-Ray</h2>
+                        <p class="text-center pt-2" style="color: #204289;">Enim cursus nullam eu dolor.</p>
+                        <div class=" mt-2 mb-5 text-center">
+                            <a href="#"><button class="btn btn-outline-danger btn-sm ">See more</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 rounded-5 overflow-hidden p-0 mb-4" style="background-color: white;">
+                        <img src="images/bedoctor-services-pic5.webp" class="img-fluid rounded-top-5">
+                        <h2 class="fw-bold text-center fs-2 pt-4" style="color: #204289;">Ear treatment</h2>
+                        <p class="text-center pt-2" style="color: #204289;">Vitae enim aliquam aliquet sit.</p>
+                        <div class=" mt-2 mb-5 text-center">
+                            <a href="#"><button class="btn btn-outline-danger btn-sm ">See more</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 rounded-5 overflow-hidden p-0 mb-4" style="background-color: white;">
+                        <img src="images/bedoctor-services-pic6.webp" class="img-fluid rounded-top-5">
+                        <h2 class="fw-bold text-center fs-2 pt-4" style="color: #204289;">Pregnancy</h2>
+                        <p class="text-center pt-2" style="color: #204289;">Neque cubilia etiam fringilla integer.</p>
+                        <div class=" mt-2 mb-5 text-center">
+                            <a href="#"><button class="btn btn-outline-danger btn-sm ">See more</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- display end -->
+    <!-- d-md-block start -->
+    <div class="container-fluid ps-5 pe-5 mt-5 mb-5 d-none d-md-block">
+        <div class="row rounded-5 overflow-hidden"
+            style="background-image: url(images/bedoctor-section-bg3.webp); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; height: 900px;">
+            <div class="container pt-5">
+                <h2 class="text-white display-5 pt-5 fw-bold">Why you should <br>choose me?</h2>
+                <div class=" mt-5">
+                    <a href="#"><button class="btn btn-outline-danger btn-lg ">My experience</button></a>
+                </div>
+                <div class="row" id="sec-exp">
+                    <div class="col-md-3">
+                        <img src="images/bedoctor-num1.svg">
+                        <p class="text-white fs-5 pt-4">Posuere viverra felis cursus<br> porta. Lacus, egestas elit sed
+                            <br>faucibus id nisl scelerisque.
+                        </p>
+                    </div>
+                    <div class="col-md-3 offset-1">
+                        <img src="images/bedoctor-num2.svg">
+                        <p class="text-white fs-5 pt-4">In lacus eu vestibulum pretium<br> blandit facilisis elit dictum
+                            nec <br>sollicitudin. Cras lectus <br>magnis</p>
+                    </div>
+                    <div class="col-md-3 offset-1">
+                        <img src="images/bedoctor-num3.svg">
+                        <p class="text-white fs-5 pt-4">Montes mattis donec <br>pellentes imperdiet integer. <br>Litora
+                            nullam Hac volutpat <br>egestas duis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- displat end -->
+    <!-- d-sm-block start -->
+    <div class="container-fluid ps-5 pe-5 mt-5 mb-5 d-sm-block d-md-none">
+        <div class="row rounded-5 overflow-hidden mb-5"
+            style="background-image: url(images/bedoctor-section-bg3.webp); background-repeat: no-repeat; background-size: cover; background-position: center;">
+            <div class="container pt-5">
+                <h2 class="text-white display-5 pt-5 fw-bold">Why you should <br>choose me?</h2>
+                <div class=" mt-5">
+                    <a href="#"><button class="btn btn-outline-danger btn-lg ">My experience</button></a>
+                </div>
+                <div class="row ms-5 mt-5 mb-5">
+                    <div class="col-md-3 mt-4">
+                        <img src="images/bedoctor-num1.svg">
+                        <p class="text-white fs-5 pt-4">Posuere viverra felis cursus<br> porta. Lacus, egestas elit sed
+                            <br>faucibus id nisl scelerisque.
+                        </p>
+                    </div>
+                    <div class="col-md-3 mt-4">
+                        <img src="images/bedoctor-num2.svg">
+                        <p class="text-white fs-5 pt-4">In lacus eu vestibulum pretium<br> blandit facilisis elit dictum
+                            nec <br>sollicitudin. Cras lectus <br>magnis</p>
+                    </div>
+                    <div class="col-md-3 mt-4">
+                        <img src="images/bedoctor-num3.svg">
+                        <p class="text-white fs-5 pt-4">Montes mattis donec <br>pellentes imperdiet integer. <br>Litora
+                            nullam Hac volutpat <br>egestas duis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- display end -->
+    <!-- d-md-block start -->
+    <div class="container-fluid ps-5 pe-5 mb-5 d-none d-md-block">
+        <div class="row text-center">
+            <div class="col-md-6">
+                <img src="images/bedoctor-about-pic3.webp" class="img-fluid rounded-5">
+            </div>
+            <div class="col-md-6 rounded-5 pt-5"
+                style="background-image: url(images/bedoctor-section-bg2.webp); background-repeat: no-repeat; background-size: cover;">
+                <img src="images/bedoctor-icon-pin.svg" class="img-fluid p-4 mt-5"
+                    style="background-color: white; border-radius: 50%;">
+                <h2 class="fw-bold fs-1 pt-5" style="color: #204289;">Visit our new facility.<br> We're looking forward
+                    to <br>seeing you!</h2>
+                <p class="fs-5 pt-4" style="color: #204289;">Level 13, 2 Elizabeth St,<br> Melbourne,<br> Victoria 3000,
+                    Australia</p>
+                <div class=" mt-5 text-center pt-1">
+                    <a href="#"><button class="btn btn-outline-danger btn-lg ">Book an appointment</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- diaplay end -->
+    <!-- d-sm-block start -->
+    <div class="container-fluid ps-5 pe-5 mb-5 d-sm-block d-md-none">
+        <div class="row text-center">
+            <div class="col-md-6">
+                <img src="images/bedoctor-about-pic3.webp" class="img-fluid rounded-5">
+            </div>
+            <div class="col-md-6 rounded-5 pt-5 pb-5 mt-4"
+                style="background-image: url(images/bedoctor-section-bg2.webp); background-repeat: no-repeat; background-size: cover;">
+                <img src="images/bedoctor-icon-pin.svg" class="img-fluid p-4 mt-5"
+                    style="background-color: white; border-radius: 50%;">
+                <h2 class="fw-bold fs-1 pt-5" style="color: #204289;">Visit our new facility.<br> We're looking forward
+                    to <br>seeing you!</h2>
+                <p class="fs-5 pt-4" style="color: #204289;">Level 13, 2 Elizabeth St,<br> Melbourne,<br> Victoria 3000,
+                    Australia</p>
+                <div class=" mt-5 text-center pt-1">
+                    <a href="#"><button class="btn btn-outline-danger btn-lg">Book an appointment</button></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- display end -->
+    <!-- d-md-block start -->
+    <div class="container-fluid ps-5 pe-5 pb-5 d-none d-md-block" id="pricing">
+        <div class="row rounded-5 overflow-hidden"
+            style="background-image: url(images/bedoctor-section-bg1.webp); background-repeat: no-repeat; background-size: cover; height: 1100px;">
+            <div class="container pt-5">
+                <p class="text-center fw-bold pt-5" style="color: #2b6cf5;">PRICING</p>
+                <h2 class="text-center fw-bold display-4 pt-42" style="color: #204289;">Choose your health plan</h2>
+                <p class="text-center pt-2" style="color: #204289;">Posuere at arcu, felis iaculis tortor mattis id. Eu
+                    at in posuere elit. Feugiat at faucibus<br> risus commodo odio.
+                </p>
+                <div class="row mt-5 p-2">
+                    <div class="col-md-4 rounded-5 overflow-hidden text-center p-5"
+                        style="background-color: white; height: 650px;">
+                        <img src="images/bedoctor-pricing-icon1.svg" class="img-fluid mt-5">
+                        <p class=" fs-5 pt-3" style="color: #204289;">BASIC</p>
+                        <h2 class="fw-bold pt-4 display-5" style="color: #204289;"><span
+                                class="fs-5 fw-normal">$</span>39<span class="fs-5 fw-normal"> mo</span></h2>
+                        <p class="pt-5" style="color: #204289;">Consultation with doctor</p>
+                        <hr>
+                        <p style="color: #204289;">Laboratory and diagnostic tests</p>
+                        <hr>
+                        <p style="color: #204289;">Two home visits a year</p>
+                        <div class=" mt-2 mb-5 text-center">
+                            <a href="#"><button class="btn btn-outline-danger btn-lg ">Choose</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 rounded-5 overflow-hidden text-center p-5" style="height: 650px;">
+                        <img src="images/bedoctor-pricing-icon2.svg" class="img-fluid mt-5">
+                        <p class=" fs-5 pt-3" style="color: #204289;">COMFORT</p>
+                        <h2 class="fw-bold pt-4 display-5" style="color: #204289;"><span
+                                class="fs-5 fw-normal">$</span>59<span class="fs-5 fw-normal"> mo</span></h2>
+                        <p class="pt-5" style="color: #204289;">ALL from BASIC +</p>
+                        <hr>
+                        <p style="color: #204289;">Day and night emergency care</p>
+                        <hr>
+                        <p style="color: #204289;">Two more home visits a year</p>
+                        <div class=" mt-2 mb-5 text-center">
+                            <a href="#"><button class="btn btn-outline-danger btn-lg ">Choose</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 rounded-5 overflow-hidden text-center p-5 mb-5"
+                        style="background-color: white; height: 650px;">
+                        <img src="images/bedoctor-pricing-icon3.svg" class="img-fluid mt-5">
+                        <p class=" fs-5 pt-3" style="color: #204289;">COMPLEX</p>
+                        <h2 class="fw-bold pt-4 display-5" style="color: #204289;"><span
+                                class="fs-5 fw-normal">$</span>99<span class="fs-5 fw-normal"> mo</span></h2>
+                        <p class="pt-5" style="color: #204289;">All from COMFORT +</p>
+                        <hr>
+                        <p style="color: #204289;">Rehabilitation after injury</p>
+                        <hr>
+                        <p style="color: #204289;">Four more home visits a year</p>
+                        <div class=" mt-2 mb-5 text-center">
+                            <a href="#"><button class="btn btn-outline-danger btn-lg ">Choose</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- dispaly end -->
+    <!-- d-sm-block -->
+    <div class="container-fluid ps-5 pe-5 mb-5 d-sm-block d-md-none">
+        <div class="row rounded-5 overflow-hidden pb-5"
+            style="background-image: url(images/bedoctor-section-bg1.webp); background-repeat: no-repeat; background-size: cover;">
+            <div class="container pt-5">
+                <p class="text-center fw-bold pt-5" style="color: #2b6cf5;">PRICING</p>
+                <h2 class="text-center fw-bold display-4 pt-42" style="color: #204289;">Choose your health plan</h2>
+                <p class="text-center pt-2" style="color: #204289;">Posuere at arcu, felis iaculis tortor mattis id. Eu
+                    at in posuere elit. Feugiat at faucibus<br> risus commodo odio.
+                </p>
+                <div class="row mt-5 p-2">
+                    <div class="col-md-4 rounded-5 overflow-hidden text-center p-5"
+                        style="background-color: white; height: 650px;">
+                        <img src="images/bedoctor-pricing-icon1.svg" class="img-fluid mt-5">
+                        <p class=" fs-5 pt-3" style="color: #204289;">BASIC</p>
+                        <h2 class="fw-bold pt-4 display-1" style="color: #204289;"><span
+                                class="fs-5 fw-normal">$</span>39<span class="fs-5 fw-normal"> mo</span></h2>
+                        <p class="pt-5" style="color: #204289;">Consultation with doctor</p>
+                        <hr>
+                        <p style="color: #204289;">Laboratory and diagnostic tests</p>
+                        <hr>
+                        <p style="color: #204289;">Two home visits a year</p>
+                        <div class=" mt-2 mb-5 text-center">
+                            <a href="#"><button class="btn btn-outline-danger btn-lg ">Choose</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 rounded-5 overflow-hidden text-center p-5 mt-4" style="background-color: white; height: 650px;">
+                        <img src="images/bedoctor-pricing-icon2.svg" class="img-fluid mt-5">
+                        <p class=" fs-5 pt-3" style="color: #204289;">COMFORT</p>
+                        <h2 class="fw-bold pt-4 display-1" style="color: #204289;"><span
+                                class="fs-5 fw-normal">$</span>59<span class="fs-5 fw-normal"> mo</span></h2>
+                        <p class="pt-5" style="color: #204289;">ALL from BASIC +</p>
+                        <hr>
+                        <p style="color: #204289;">Day and night emergency care</p>
+                        <hr>
+                        <p style="color: #204289;">Two more home visits a year</p>
+                        <div class=" mt-2 mb-5 text-center">
+                            <a href="#"><button class="btn btn-outline-danger btn-lg ">Choose</button></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 rounded-5 overflow-hidden text-center p-5 mt-4"
+                        style="background-color: white; height: 650px;">
+                        <img src="images/bedoctor-pricing-icon3.svg" class="img-fluid mt-5">
+                        <p class=" fs-5 pt-3" style="color: #204289;">COMPLEX</p>
+                        <h2 class="fw-bold pt-4 display-1" style="color: #204289;"><span
+                                class="fs-5 fw-normal">$</span>99<span class="fs-5 fw-normal"> mo</span></h2>
+                        <p class="pt-5" style="color: #204289;">All from COMFORT +</p>
+                        <hr>
+                        <p style="color: #204289;">Rehabilitation after injury</p>
+                        <hr>
+                        <p style="color: #204289;">Four more home visits a year</p>
+                        <div class=" mt-2 mb-5 text-center">
+                            <a href="#"><button class="btn btn-outline-danger btn-lg ">Choose</button></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- display end -->
+    <!-- d-md-block -->
+    <div class="container-fluid d-none d-md-block" id="pricing">
+        <div class="row">
+            <div class="col-md-5 ms-5">
+                <img src="images/bedoctor-icon2.svg" class="img-fluid mt-5">
+                <h2 class="fw-bold display-4 pt-3 pb-3" style="color: #204289;">Satisfied patients</h2>
+                <p class="fs-5 pb-3" style="color: #204289;">Ac amet in adipiscing in sed sit eget.<br> Aliquam
+                    suspendisse viverra varius lobortis<br> elit velit. Sit
+                    vitae a enim mi vitae accumsan.<br> Quam in auctor sed libero lacus. Varius <br>adipiscing ac,
+                    commodo,
+                    tincidunt.
+                </p>
+                <p class="fs-5" style="color: #204289;">Kristin Watson</p>
+                <p class="lh-1" style="color: #204289;">Jun 27, 2020</p>
+            </div>
+            <div class="col-md-6 ms-5 mt-5">
+                <img src="images/bedoctor-packages-pic2.webp" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <!-- display end -->
+    <!-- d-sm-block -->
+    <div class="container-fluid d-sm-block d-md-none">
+        <div class="row">
+            <div class="col-md-6 text-start ps-5">
+                <img src="images/bedoctor-icon2.svg" class="img-fluid mt-5">
+                <h2 class="fw-bold display-4 pt-3 pb-3" style="color: #204289;">Satisfied patients</h2>
+                <p class="fs-5 pb-3" style="color: #204289;">Ac amet in adipiscing in sed sit eget.<br> Aliquam
+                    suspendisse viverra varius lobortis<br> elit velit. Sit
+                    vitae a enim mi vitae accumsan.<br> Quam in auctor sed libero lacus. Varius <br>adipiscing ac,
+                    commodo,
+                    tincidunt.
+                </p>
+                <p class="fs-5" style="color: #204289;">Kristin Watson</p>
+                <p class="lh-1" style="color: #204289;">Jun 27, 2020</p>
+            </div>
+            <div class="col-md-6 mt-5">
+                <img src="images/bedoctor-packages-pic2.webp" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <!-- display end -->
+    <div class="container-fluid ps-5 pe-5 mt-5 mb-5">
+        <div class="row rounded-5 overflow-hidden"
+            style="background-image: url(images/bedoctor-wrap-bg2.webp); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; height: 500px;">
+            <div class="container text-center pt-5">
+                <img src="images/bedoctor-icon4.svg" class="img-fluid mt-5">
+                <h2 class="fw-bold display-4 text-white pt-3">Don't wait and make an <br>appointment today</h2>
+                <div class="text-center pt-4">
+                    <a href="#"><button class="btn btn-outline-danger btn-lg ">Book an appointment</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- d-md-lock start -->
+    <div class="container-fluid d-none d-md-block">
+        <div class="row pt-5 mt-5">
+            <div class="col-md-4" id="pricing">
+                <p class="fs-4 fw-bold" style="color: #204289;">Level 13, 2 Elizabeth St,<br> Melbourne, Victoria
+                    <br>3000, Australia
+                </p>
+                <p style="color: #204289;">Opening hours: Mon - Sat: 9 AM - 6 PM</p>
+                <i class="fa-brands fa-facebook-f p-3"
+                    style="background-color: #F2F6FA; color: #204289; border-radius: 50%;"></i>
+                <i class="fa-brands fa-instagram p-3 ms-4"
+                    style="background-color: #F2F6FA; color: #204289; border-radius: 50%;"></i>
+                <i class="fa-brands fa-pinterest-p p-3 ms-4"
+                    style="background-color: #F2F6FA; color: #204289; border-radius: 50%;"></i>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="images/bedoctor-footer-logo.svg" class="img-fluid">
+                <p class="fs-5" style="color: #204289;">Contact me</p>
+                <h2 class="display-5 fw-bold pt-4" style="color: #2b6cf5;">+61 (0) 3 8376 6284</h2>
+                <div class="text-center pt-4">
+                    <a href="#"><button class="btn btn-outline-danger btn-lg ">Contact us</button></a>
+                </div>
+            </div>
+            <div class="col-md-4 text-end" id="pricing">
+                <p class="fs-5" style="color: #204289;">Useful links</p>
+                <p><a href="#">Contact with us?</a></p>
+                <p><a href="#">Who we are</a></p>
+                <p><a href="#">Safety data sheets</a></p>
+                <p><a href="#">Job application</a></p>
+                <p><a href="#">Peivacy policy</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- display end -->
+    <!-- d-sm-block start -->
+    <div class="container-fluid d-sm-block d-md-none">
+        <div class="row pt-5 mt-5 text-center">
+            <div class="col-md-4" id="pricing">
+                <p class="fs-4 fw-bold" style="color: #204289;">Level 13, 2 Elizabeth St,<br> Melbourne, Victoria
+                    <br>3000, Australia
+                </p>
+                <p style="color: #204289;">Opening hours: Mon - Sat: 9 AM - 6 PM</p>
+                <i class="fa-brands fa-facebook-f p-3"
+                    style="background-color: #F2F6FA; color: #204289; border-radius: 50%;"></i>
+                <i class="fa-brands fa-instagram p-3 ms-4"
+                    style="background-color: #F2F6FA; color: #204289; border-radius: 50%;"></i>
+                <i class="fa-brands fa-pinterest-p p-3 ms-4"
+                    style="background-color: #F2F6FA; color: #204289; border-radius: 50%;"></i>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="images/bedoctor-footer-logo.svg" class="img-fluid">
+                <p class="fs-5" style="color: #204289;">Contact me</p>
+                <h2 class="display-5 fw-bold pt-4" style="color: #2b6cf5;">+61 (0) 3 8376 6284</h2>
+                <div class="text-center pt-4">
+                    <a href="#"><button class="btn btn-outline-danger btn-lg ">Contact us</button></a>
+                </div>
+            </div>
+            <div class="col-md-4" id="pricing">
+                <p class="fs-5" style="color: #204289;">Useful links</p>
+                <p><a href="#">Contact with us?</a></p>
+                <p><a href="#">Who we are</a></p>
+                <p><a href="#">Safety data sheets</a></p>
+                <p><a href="#">Job application</a></p>
+                <p><a href="#">Peivacy policy</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- display end -->
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+</html>

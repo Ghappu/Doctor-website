@@ -1,0 +1,42 @@
+#home-text{
+    padding-top: 180px;
+}
+
+#home-text h1{
+    font-size: 59px;
+}
+
+#home-text2{
+    margin:120px 0px 80px 0px;
+}
+
+#home-text2 h2{
+    font-size: 27px;
+}
+
+#sec-exp{
+    margin-top: 300px;
+}
+
+#pricing{
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+#about-1st{
+    margin: auto;
+    margin-top: 150px;
+}
+
+#about-2nd{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+#about-2nd h2{
+    font-size: 35px;
+}
+
+#package-1{
+    margin-top: 150px;
+}
